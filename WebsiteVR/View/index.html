@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Virtual Lab</title>
+    <title>Virtual Hack</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,76 +23,57 @@
     <script src="../Public/scripts/main.js"></script>
     <script src="../Public/scripts/dynamics.js"></script>
 
-    <style>
-        ul.nav li.dropdown:hover ul.dropdown-menu {
-            display: block;
-        }
-        .navbar {min-height: 80px;}
-        .navbar-brand {padding: 0 15px; height: 78px; line-height: 80px;}
-    </style>
-    <link rel="stylesheet" href="../Public/scripts/login.css">
 </head>
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header navbar-left">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!--<a class="navbar-brand navbar-left" href="http://www.fresnostate.edu/engineering/cm/"><img src="../Public/scripts/Fresno%20State%20CM%20logo.jpg" style="max-width:100px; height: 100px; margin-top: -10px;"></a>-->
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-           <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" data-toggle="modal" data-target="#login-modal1">REGISTER</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#login-modal">LOGIN</a></li>
-            </ul> -->
-        </div>
-    </div>
-</nav>
-
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    <div class="modal-dialog">
-        <div class="loginmodal-container">
-            <h1 style="color: black">Login to Your Account</h1><br>
-            <form>
-                <input style="color: #0f0f0f;" type="text" name="user" placeholder="Fresno State ID" id="fresnoid">
-                <input style="color: #0f0f0f;" type="password" name="pass" placeholder="Password" id="password">
-                <input style="color: #0f0f0f;" type="submit" name="login" class="login loginmodal-submit" value="Login" id="login">
-            </form>
-
-            <div class="login-help">
-                <a href="#" data-toggle="modal" data-target="#login-modal1">Register</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="login-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    <div class="modal-dialog">
-        <div class="loginmodal-container">
-            <h1 style="color: black">Register</h1><br>
-            <form style="color: #0f0f0f;">
-                <input style="color: #0f0f0f;" type="text" name="fresnostateid" placeholder="FresnoState ID" id="fsid">
-                <input style="color: #0f0f0f;"type="text" name="user" placeholder="Username" id="user">
-                <input style="color: #0f0f0f;" type="password" name="pass" placeholder="Password" id="pass">
-                <input style="color: #0f0f0f;" type="submit" name="login" id="register" class="login loginmodal-submit" value="register">
-            </form>
-        </div>
-    </div>
-</div>
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center tab1">
-    <h2 class="margin" style="padding-top: 95px">Welcome to the VR Hack <br> CM107L SF HACK</h2>
+    <h2 class="margin" style="padding-top: 20px">Welcome to the VR Hack <br> SF HACK</h2>
 
-    <p style="padding-bottom: 140px"></p>
+    <p style="padding-bottom: 30px">This VR Hack is made to introduce to people who is participating in a hackathon for the first time.
+    <br>We plan to encourage people that the term "Hackathon" is not scary at all.<br> With that said we hope you like this as it shows you that hackathons itself isn't scary at all</p>
     <!--<p><button class="btn btn-success" style="padding: 10px 20px;"><a href="introduction.html">ENTER</a></button> </p> -->
+
+<div id="slideshow-wrap">
+    <input type="radio" id="button-1" name="controls" checked="checked"/>
+    <label for="button-1"></label>
+    <input type="radio" id="button-2" name="controls"/>
+    <label for="button-2"></label>
+    <input type="radio" id="button-3" name="controls"/>
+    <label for="button-3"></label>
+    <input type="radio" id="button-4" name="controls"/>
+    <label for="button-4"></label>
+    <input type="radio" id="button-5" name="controls"/>
+    <label for="button-5"></label>
+    <label for="button-1" class="arrows" id="arrow-1">></label>
+    <label for="button-2" class="arrows" id="arrow-2">></label>
+    <label for="button-3" class="arrows" id="arrow-3">></label>
+    <label for="button-4" class="arrows" id="arrow-4">></label>
+    <label for="button-5" class="arrows" id="arrow-5">></label>
+    <div id="slideshow-inner">
+        <ul>
+            <li id="slide1">
+                <img src="../Public/Images/" style="width:620px;height:400px"/>
+            </li>
+            <li id="slide2">
+                <img src="../Public/Images" style="width:620px;height:400px"/>
+            </li>
+            <li id="slide3">
+                <img src="../Public/Images" style="width:620px;height:400px"/>
+            </li>
+            <li id="slide4">
+                <img src="../Public/Images" style="width:620px;height:400px"/>
+
+            </li>
+            <li id="slide5">
+                <img src="../Public/Images" style="width:620px;height:400px"/>
+            </li>
+        </ul>
+    </div>
 </div>
-
-
+    <p style="padding-top: 40px;"> Here is the link that you could download to experience the <a href="#">VR Hack</a></p>
+    <p>Below would redirect you to our Members page</p>
+    <button><a href="members.html">Members</a></button>
+</div>
 <!--<embed src="CM191T_Syllabus_SP2017.docx.pdf" width=100% height=100% alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">-->
 
 
