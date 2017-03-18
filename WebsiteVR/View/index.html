@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Virtual Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- BootStrap Libraries -->
+    <script src="../Public/scripts/Bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Public/scripts/Bootstrap/css/bootstrap.min.css">
+
+    <!-- User Defined Javascript -->
+    <link rel="stylesheet" href="../Public/scripts/main.css">
+
+    <!-- CDN -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../Public/scripts/sidebar.css">
+
+    <script src="../Public/scripts/main.js"></script>
+    <script src="../Public/scripts/dynamics.js"></script>
+
+    <style>
+        ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+        }
+        .navbar {min-height: 80px;}
+        .navbar-brand {padding: 0 15px; height: 78px; line-height: 80px;}
+    </style>
+    <link rel="stylesheet" href="../Public/scripts/login.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header navbar-left">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand navbar-left" href="http://www.fresnostate.edu/engineering/cm/"><img src="../Public/scripts/Fresno%20State%20CM%20logo.jpg" style="max-width:100px; height: 100px; margin-top: -10px;"></a>-->
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+           <!-- <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" data-toggle="modal" data-target="#login-modal1">REGISTER</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#login-modal">LOGIN</a></li>
+            </ul> -->
+        </div>
+    </div>
+</nav>
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="loginmodal-container">
+            <h1 style="color: black">Login to Your Account</h1><br>
+            <form>
+                <input style="color: #0f0f0f;" type="text" name="user" placeholder="Fresno State ID" id="fresnoid">
+                <input style="color: #0f0f0f;" type="password" name="pass" placeholder="Password" id="password">
+                <input style="color: #0f0f0f;" type="submit" name="login" class="login loginmodal-submit" value="Login" id="login">
+            </form>
+
+            <div class="login-help">
+                <a href="#" data-toggle="modal" data-target="#login-modal1">Register</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="login-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="loginmodal-container">
+            <h1 style="color: black">Register</h1><br>
+            <form style="color: #0f0f0f;">
+                <input style="color: #0f0f0f;" type="text" name="fresnostateid" placeholder="FresnoState ID" id="fsid">
+                <input style="color: #0f0f0f;"type="text" name="user" placeholder="Username" id="user">
+                <input style="color: #0f0f0f;" type="password" name="pass" placeholder="Password" id="pass">
+                <input style="color: #0f0f0f;" type="submit" name="login" id="register" class="login loginmodal-submit" value="register">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center tab1">
+    <h2 class="margin" style="padding-top: 95px">Welcome to the VR Hack <br> CM107L SF HACK</h2>
+
+    <p style="padding-bottom: 140px"></p>
+    <!--<p><button class="btn btn-success" style="padding: 10px 20px;"><a href="introduction.html">ENTER</a></button> </p> -->
+</div>
+
+
+<!--<embed src="CM191T_Syllabus_SP2017.docx.pdf" width=100% height=100% alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">-->
+
+
+<!-- Footer -->
+<footer class="cont bg-4 text-center">
+    <!--<p>&copy;Construction Management, California State University, Fresno <a href="http://www.fresnostate.edu/engineering/cm/">Visit Us</a></p> -->
+    <p>VR HACK</p>
+</footer>
+</body>
+</html>
+
