@@ -176,10 +176,16 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 #slideshow-inner>ul>li:hover .description label { opacity: 1 }
 .description input[type=checkbox]:checked~label { opacity: 1 }
 
-.memberlist{
+.memberlist img{
     shape-outside: ellipse();
     display: inline-block;
-    height: 400px;
-    width: 50%;
-    max-width: 200px;
+    height: 300px;
+    width: 75%;
+    max-width: 300px;
+}
+a{
+    color: white;
+}
+.memberlist figure{
+    display: inline-block;
 }
